@@ -1,0 +1,191 @@
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+
+#recipesection{
+  margin-top: 100px;
+}
+
+#login{
+  margin-top:150px;
+}
+
+.search-form{
+  margin-top:150px;
+
+}
+
+/*==============================================================*/
+/* Navigation bar */ 
+/*==============================================================*/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.navbar{
+  margin-bottom: 150x;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display:inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  float:none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/*==============================================================*/
+/*searchRecipe.html*/
+/*==============================================================*/
+
+#search-form {
+  margin-top:150px;
+  margin-bottom:150px;
+}
+
+
+/*==============================================================*/
+/* Search Recipe Syle: display cards */
+/*==============================================================*/
+
+#results {
+  margin-top: 50px;
+}
+
+#searchcontainer{
+    text-align: center;
+}
+
+.recipeCard {
+  border: 3px solid #000;
+  -webkit-box-shadow:1px 3px 8px #000;
+          box-shadow:1px 3px 8px #000;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  background: #fff;
+  height: 537px;
+  width: 340px;
+}
+.card:focus, .card:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+ }
+ .card-inverse .card-img-overlay {
+  background-color: rgba(51, 51, 51, 0.85);
+  border-color: rgba(51, 51, 51, 0.85);
+ }
+ hr { margin:1px}
+ 
+ @-webkit-keyframes cardAnimation {
+     0%{background-position:0% 50%}
+     50%{background-position:100% 50%}
+     100%{background-position:0% 50%}
+ }
+ 
+ @keyframes cardAnimation {
+     0%{background-position:0% 50%}
+     50%{background-position:100% 50%}
+     100%{background-position:0% 50%}
+ }
+ 
+ .card-img-top{
+   height: auto;
+   -o-object-fit: cover;
+      object-fit: cover;
+   width: 100%;
+ }
+ 
+ .card-btn {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   background-color: #000;
+   color: #fff;
+   border-color: #000;
+ }
+ 
+ .card-btn:hover, .card-btn:active{
+   background: #3FB5C5;
+   border-color: #3FB5C5;
+ }
+
+ #search-form-div{
+   display:inline-block;
+   width: 1000px;
+ }
+
+
+/*==============================================================*/
+/* FOOTER */
+/*==============================================================*/
+
+footer {
+ /* position: fixed;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+} 
+
+
+#footerimagecenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.addRecipeContainer {
+  margin-top: 150px;
+  width:100%;
+  background-image: url("food.jpg");
+}
+  
+.favContainer {
+  margin-top: 150px;
+  width:100%;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ 
